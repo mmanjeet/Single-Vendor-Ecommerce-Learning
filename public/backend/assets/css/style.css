@@ -2168,7 +2168,7 @@ pre code {
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
-    border: 2px solid rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 0;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -20896,13 +20896,14 @@ pre[class*=language-]:before {
 }
 
 .pcoded-navbar .pcoded-inner-navbar li.pcoded-menu-caption {
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 17px;
+    /* font-weight: 600; */
     color: #1abc9c;
-    padding: 18px 15px 5px;
+    padding: 0px 18px 0px;
     text-transform: capitalize;
     position: relative;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .pcoded-navbar .pcoded-inner-navbar li.pcoded-menu-caption:first-child {
@@ -20921,7 +20922,7 @@ pre[class*=language-]:before {
 
 .pcoded-navbar .pcoded-submenu {
     background: #2c3e50;
-    padding: 15px 0;
+    padding: 0px 0px 10px 0px;
 }
 
 .pcoded-navbar a {
